@@ -54,9 +54,6 @@ album_id integer references album(album_id)
 );
 
 
-ALTER TABLE genre 
-RENAME COLUMN id TO genre_id;
-
 
 
 
